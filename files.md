@@ -10,6 +10,6 @@
 
 Просмотр документов on-line (с разметкой):
 
-[inc0025_ep.html](https://yes2helen.github.io/RuTimeCor/files/inc0025_ep.html)
-[inc0026_ep.html](https://yes2helen.github.io/RuTimeCor/files/inc0026_ep.html)
-[inc0039_ep.html](https://yes2helen.github.io/RuTimeCor/files/inc0039_ep.html)
+* [inc0025_ep.html](https://yes2helen.github.io/RuTimeCor/files/inc0025_ep.html)
+* [inc0026_ep.html](https://yes2helen.github.io/RuTimeCor/files/inc0026_ep.html)
+* [inc0039_ep.html](https://yes2helen.github.io/RuTimeCor/files/inc0039_ep.html)

@@ -2,14 +2,16 @@
 
 <head>
 <style>
-html, body, td, div { box-sizing: border-box; }
+html, body, td, div { box-sizing: border-box; font-family: sans-serif }
+html { margin-left: 2ex; margin-right: 2ex }
 p { margin-top: 0.5em; margin-bottom: 0.5em }
-table { display: inline-block; border-spacing: 0 0.5ex; border: 0 white solid; }
-td { padding: 0 0.25em 0 0.25em; white-space: nowrap }
-.border-left { border-left: 1px solid lightgray; }
-.border-right { border-right: 1px solid lightgray; }
+table { display: inline-block; border-spacing: 0 0.5ex; }
+td { padding: 0.25ex 0.25em 0.25ex 0.25em; white-space: nowrap }
+.border-left { border-left: 0.25ex solid lightgray; }
+.border-right { border-right: 0.25ex solid lightgray; }
 .legend { width: 100%; background-color: gainsboro; padding: 1px 2ex 1px 2ex }
-@keyframes blink{ 0% { border: 0 white solid; } 50% { border: 0.5ex black solid; } 100% { border: 0 white solid; } }
+.legend table tbody tr td { border: 0.5ex solid darkgray }
+@keyframes blink{ 0% { border-left: 0 white solid; border-right: 0 white solid; } 50% { border-left: 0.5ex black solid; border-right: 0.5ex black solid; } 100% { border-left: 0 white solid; border-right: 0 white solid; } }
 </style>
 <script type="text/javascript">
 var startBlink = function(targetId) {
@@ -27,6 +29,7 @@ el.setAttribute('style', 'animation: blink 0.5s linear 0s 5');
 <div class="legend">
 <p>Цветовые обозначения классов аннотаций:<p>
 <table>
+<tbody>
 <tr>
 <td style="background-color:yellow; text-align: center">
 Anchored</td>
@@ -39,6 +42,7 @@ DocCreationTime</td>
 <td style="background-color:greenyellow; text-align: center">
 TE</td>
 </tr>
+</tbody>
 </table>
 </div>
 <hr>
